@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+  --color-1: rgb(212, 214, 219);
+  --color-2: rgb(3, 4, 54);
+  --color-3: rgb(255, 228, 228);}
+  .container{
+max-width: 1290px;
+margin: auto;
+width: 100%;
+  }
+  
+  .headerclass{
+text-align: center;
+background-color: var(--color-1);
+padding: 45px;
+
+  }
+  .midst{
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+
+
+
+
+  }
+  .firstimg{
+width: 280px;
+height: 250px;
+border-radius: 10px;
+
+
+  }
+  .categorys{
+border: 1px solid rgb(221, 217, 217);
+gap: 25px;
+margin: 85px  ;
+border-radius: 10px;
+text-align: center;
+background-color:rgb(238, 230, 230);
+  }
+  .btn{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 35px;
+background-color: var(--color-1);
+padding: 35px;
+  }
+  .btnclass{
+width:180px;
+height: 35px;
+background-color: blueviolet;
+color: white;
+border-radius: 25px;
+  }
+  .classbtn{
+width:180px;
+height: 35px;
+background-color: white;
+color: rgb(22, 22, 22);
+border-radius: 25px;
+  }
+  .threesection{
+    text-align: center;
+  padding: 40px 20px;
+  background-color: var(--color-1);
+  }
+  .divclass{
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+
+
+
+  }
+  .lastimg{
+width: 25px;
+height: 25px;
+
+
+  }
+  .endclass{
+background-color: rgb(85, 25, 141);
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+width: 450px;
+
+  }
+  .imgclass{
+    display: flex;
+    padding: 15px;
+  }
